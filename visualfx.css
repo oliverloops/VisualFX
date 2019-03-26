@@ -1,39 +1,114 @@
 /*  Beat Animation */
 .easer {
-    animation: close-in-out 0.8s ease-in-out;
+    animation: close-in-out 2s ease-in-out;
 }
 
 @keyframes close-in-out {
     0% {
-        transform: rotate(10deg);
+        transform: scale(1);
+        opacity: 0.3;
     }
-    40% {
-        transform: rotate(15deg);
+    15% {
+        transform: scale(2);
+        opacity: 0.5;
+    } 
+    30% {
+        transform: scale(1);
+        opacity: 0.8;
     }
-    80% {
-        transform: rotate(10deg);
+    45% {
+        transform: scale(2);
+        opacity: 1;
     }
-    100% {
-        transform: rotate(10deg);
+    60% {
+        transform: scale(1);
+        opacity: 0.3;
     }
-}
-
-/* Blurry Animation */
-.blurry {
-    animation: blurry 1s ease-in-out;
-}
-
-@keyframes blurry {
-    0% {
-        opacity: 0;
-    }
-    50% {
+    75% {
+        transform: scale(2);
         opacity: 0.5;
     }
     100% {
+        transform: scale(1);
         opacity: 1;
     }
 }
+
+/* Blurry Right Movement */
+.blurryright {
+    animation: blurryright 1s linear;
+}
+
+@keyframes blurryright {
+    0% {
+        opacity: 0;
+        transform: translateX(6rem);
+    }
+    20% {
+        opacity: 0.2;
+        transform: translateX(4rem);
+    }
+    60% {
+        opacity: 0.4;
+        transform: translateX(2rem);
+    }
+    80% {
+        opacity: 0.6;
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+/* Blurry Left Movement */
+.blurryleft {
+    animation: blurryleft 1s linear;
+}
+
+@keyframes blurryleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-6rem);
+    }
+    20% {
+        opacity: 0.2;
+        transform: translateX(-4rem);
+    }
+    60% {
+        opacity: 0.4;
+        transform: translateX(-2rem);
+    }
+    80% {
+        opacity: 0.6;
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 0.8;
+        transform: translateX(0rem);
+    }
+}
+
+/* Ghost Movement */
+.ghost {
+    animation: floating 2s infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(1.3125rem);
+    }
+    50% {
+        transform: translateY(7.9125rem);
+    }
+    100%{
+        transform: translateY(1.3125rem);
+    }
+}
+
+/* DeadMau5 Effect */
+
 
 
 
