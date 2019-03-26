@@ -1,0 +1,39 @@
+/*  Beat Animation */
+.easer {
+    animation: close-in-out 0.8s ease-in-out;
+}
+
+@keyframes close-in-out {
+    0% {
+        transform: rotate(10deg);
+    }
+    40% {
+        transform: rotate(15deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+/* Blurry Animation */
+.blurry {
+    animation: blurry 1s ease-in-out;
+}
+
+@keyframes blurry {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
