@@ -1,5 +1,5 @@
-/*  Beat Animation */
-.easer {
+/*  Cool Beat Animation */
+.beat {
     animation: close-in-out 2s ease-in-out;
 }
 
@@ -36,7 +36,7 @@
 
 /* Blurry Right Movement */
 .blurryright {
-    animation: blurryright 1s linear;
+    animation: blurryright 1.3s linear;
 }
 
 @keyframes blurryright {
@@ -64,7 +64,7 @@
 
 /* Blurry Left Movement */
 .blurryleft {
-    animation: blurryleft 1s linear;
+    animation: blurryleft 1.3s linear;
 }
 
 @keyframes blurryleft {
@@ -90,9 +90,37 @@
     }
 }
 
+/* Blurry Up Effect */
+.blurryup {
+    animation: blurryup 1.2s linear;
+}
+
+@keyframes blurryup {
+    0% {
+        opacity: 0;
+        transform: translateY(-6rem);
+    }
+    20% {
+        opacity: 0.2;
+        transform: translateY(-4rem);
+    }
+    60% {
+        opacity: 0.4;
+        transform: translateY(-2rem);
+    }
+    80% {
+        opacity: 0.6;
+        transform: translateY(-1rem);
+    }
+    100% {
+        opacity: 0.8;
+        transform: translateY(0rem);
+    }
+}
+
 /* Ghost Movement */
 .ghost {
-    animation: floating 2s infinite;
+    animation: floating 3s infinite;
 }
 
 @keyframes floating {
@@ -109,7 +137,7 @@
 
 /* Jumper Effect */
 .jumper {
-    animation: jumper 1.2s ease-in-out;
+    animation: jumper 1.3s ease-in-out;
 }
 
 @keyframes jumper {
@@ -127,5 +155,94 @@
     }
 }
 
+/* Balance Effect */
+.balance {
+    animation: balance 1.3s ease-in;
+}
+
+@keyframes balance {
+    10% {
+        transform: rotate(10deg);
+    } 
+    20% {
+        transform: rotate(15deg);
+    } 
+    30% {
+        transform: rotate(30deg);
+    } 
+    40% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-5deg);
+    } 
+    70% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(-20deg);
+    }
+    90% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }       
+}
+
+/* Shuffle Effect PLEASE WORK HERE!*/ 
+.shuffle {
+    animation: shuffle 0.5s infinite;
+}
+
+@keyframes shuffle {
+    0% {
+        transform: translateY(-10px);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(5px);
+    }
+    80% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(5px);
+    }  
+}
+
+/* 360º Loop Effect */
+.loop {
+    animation: loop 1.2s cubic-bezier(.2,.71,.61,.49);
+}
+
+@keyframes loop {
+    0%{
+        transform: rotate(60deg);
+    }
+    20% {
+        transform: rotate(120deg);
+    }
+    40% {
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(240deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 
