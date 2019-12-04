@@ -2,3 +2,5 @@
 ## A Visual Animation Library For Brave Web Designers :alien:
 Writing an kind of cool README.md 
 *I must modify the Shuffle Effect* :umbrella:
+
+_Comming Soon..._
