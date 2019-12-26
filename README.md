@@ -3,4 +3,4 @@
 Writing an kind of cool README.md 
 *I must modify the Shuffle Effect* :umbrella:
 
-_Comming Soon (yet working)..._ :octocat:
+_Adding Cool Effects..._ :octocat:
