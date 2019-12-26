@@ -245,4 +245,17 @@
     }
 }
 
+/* Vibration effect */
+.vibration {
+    animation: vibrate 0.8s ease-in-out;
+}
+
+@keyframes vibrate {
+    0% { transform: skewX(25deg); }
+    20% { transform: skewX(20deg); }
+    40% { transform: skewX(15deg); }
+    60% { transform: skewX(-10deg); }
+    80% { transform: skewX(-15deg); }
+    100% { transform: skewX(-20deg); }
+}
 
