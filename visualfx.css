@@ -259,3 +259,25 @@
     100% { transform: skewX(-20deg); }
 }
 
+/* Star Wars Text Effect */
+.star-wars {
+    animation: star-wars 2s ease-in;
+}
+
+@keyframes star-wars {
+    0%{
+        transform: translateY(-40px);
+    }
+    25%{
+        transform: translateY(-60px);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(-125px);
+    }
+}
