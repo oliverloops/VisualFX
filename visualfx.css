@@ -261,23 +261,23 @@
 
 /* Star Wars Text Effect */
 .star-wars {
-    animation: star-wars 2s linear;
+    animation: star-wars 1.85s linear;
 }
 
 @keyframes star-wars {
     0%{
-        transform: translateY(-40px);
+        transform: translateY(-40px) rotateX(-37deg);
     }
     25%{
-        transform: translateY(-60px);
+        transform: translateY(-60px) rotateX(-37deg);
     }
     50%{
-        transform: translateY(-80px);
+        transform: translateY(-80px) rotateX(-37deg);
     }
     75%{
-        transform: translateY(-100px);
+        transform: translateY(-100px) rotateX(-37deg);
     }
     100%{
-        transform: translateY(-125px);
+        transform: translateY(-125px) rotateX(-37deg);
     }
 }
