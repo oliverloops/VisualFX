@@ -261,7 +261,7 @@
 
 /* Star Wars Text Effect */
 .star-wars {
-    animation: star-wars 2s ease-in;
+    animation: star-wars 2s linear;
 }
 
 @keyframes star-wars {
