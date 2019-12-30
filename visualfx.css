@@ -259,7 +259,7 @@
     100% { transform: skewX(-20deg); }
 }
 
-/* Star Wars Text Effect */
+/* Star Wars Text Effect -should perform- */
 .star-wars {
     animation: star-wars 1.85s linear;
 }
