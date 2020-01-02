@@ -1,3 +1,4 @@
+/* VisualFX.css Alpha -- Perform this styles with a pull request */
 /*  Cool Beat Animation */
 .beat {
     animation: close-in-out 2s ease-in-out;
@@ -267,17 +268,13 @@
 @keyframes star-wars {
     0%{
         transform: translateY(-40px) rotateX(-37deg);
-    }
-    25%{
+    } 25%{
         transform: translateY(-60px) rotateX(-37deg);
-    }
-    50%{
+    } 50%{
         transform: translateY(-80px) rotateX(-37deg);
-    }
-    75%{
+    } 75%{
         transform: translateY(-100px) rotateX(-37deg);
-    }
-    100%{
+    } 100%{
         transform: translateY(-125px) rotateX(-37deg);
     }
 }
