@@ -266,7 +266,7 @@
 }
 
 @keyframes star-wars {
-    0%{
+      0% {
         transform: translateY(-40px) rotateX(-37deg);
     } 25%{
         transform: translateY(-60px) rotateX(-37deg);
