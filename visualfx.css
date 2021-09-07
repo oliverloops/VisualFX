@@ -1,280 +1,337 @@
-/* VisualFX.css Alpha -- Perform this styles with a pull request */
+/* VisualFX.css Beta -- Upcoming Version: 1.0.0 */
 /*  Cool Beat Animation */
 .beat {
-    animation: close-in-out 2s ease-in-out;
+  animation: close-in-out 2s ease-in-out;
 }
 
 @keyframes close-in-out {
-    0% {
-        transform: scale(1);
-        opacity: 0.3;
-    }
-    15% {
-        transform: scale(2);
-        opacity: 0.5;
-    } 
-    30% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-    45% {
-        transform: scale(2);
-        opacity: 1;
-    }
-    60% {
-        transform: scale(1);
-        opacity: 0.3;
-    }
-    75% {
-        transform: scale(2);
-        opacity: 0.5;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  15% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+  30% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  45% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  75% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* Blurry Right Movement */
 .blurryright {
-    animation: blurryright 1.3s linear;
+  animation: blurryright 1.3s linear;
 }
 
 @keyframes blurryright {
-    0% {
-        opacity: 0;
-        transform: translateX(6rem);
-    }
-    20% {
-        opacity: 0.2;
-        transform: translateX(4rem);
-    }
-    60% {
-        opacity: 0.4;
-        transform: translateX(2rem);
-    }
-    80% {
-        opacity: 0.6;
-        transform: translateX(1rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(6rem);
+  }
+  20% {
+    opacity: 0.2;
+    transform: translateX(4rem);
+  }
+  60% {
+    opacity: 0.4;
+    transform: translateX(2rem);
+  }
+  80% {
+    opacity: 0.6;
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
 }
 
 /* Blurry Left Movement */
 .blurryleft {
-    animation: blurryleft 1.3s linear;
+  animation: blurryleft 1.3s linear;
 }
 
 @keyframes blurryleft {
-    0% {
-        opacity: 0;
-        transform: translateX(-6rem);
-    }
-    20% {
-        opacity: 0.2;
-        transform: translateX(-4rem);
-    }
-    60% {
-        opacity: 0.4;
-        transform: translateX(-2rem);
-    }
-    80% {
-        opacity: 0.6;
-        transform: translateX(-1rem);
-    }
-    100% {
-        opacity: 0.8;
-        transform: translateX(0rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-6rem);
+  }
+  20% {
+    opacity: 0.2;
+    transform: translateX(-4rem);
+  }
+  60% {
+    opacity: 0.4;
+    transform: translateX(-2rem);
+  }
+  80% {
+    opacity: 0.6;
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateX(0rem);
+  }
 }
 
 /* Blurry Up Effect */
 .blurryup {
-    animation: blurryup 1.2s linear;
+  animation: blurryup 1.2s linear;
 }
 
 @keyframes blurryup {
-    0% {
-        opacity: 0;
-        transform: translateY(-6rem);
-    }
-    20% {
-        opacity: 0.2;
-        transform: translateY(-4rem);
-    }
-    60% {
-        opacity: 0.4;
-        transform: translateY(-2rem);
-    }
-    80% {
-        opacity: 0.6;
-        transform: translateY(-1rem);
-    }
-    100% {
-        opacity: 0.8;
-        transform: translateY(0rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-6rem);
+  }
+  20% {
+    opacity: 0.2;
+    transform: translateY(-4rem);
+  }
+  60% {
+    opacity: 0.4;
+    transform: translateY(-2rem);
+  }
+  80% {
+    opacity: 0.6;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateY(0rem);
+  }
 }
 
 /* Ghost Movement */
 .ghost {
-    animation: floating 3s infinite;
+  animation: floating 3s infinite;
 }
 
 @keyframes floating {
-    0% {
-        transform: translateY(1.3125rem);
-    }
-    50% {
-        transform: translateY(7.9125rem);
-    }
-    100%{
-        transform: translateY(1.3125rem);
-    }
+  0% {
+    transform: translateY(1.3125rem);
+  }
+  50% {
+    transform: translateY(7.9125rem);
+  }
+  100% {
+    transform: translateY(1.3125rem);
+  }
 }
 
 /* Jumper Effect */
 .jumper {
-    animation: jumper 1.3s ease-in-out;
+  animation: jumper 1.3s ease-in-out;
 }
 
 @keyframes jumper {
-    0% {
-        transform: rotate(7deg);
-        opacity: 0.4;
-    }
-    50% {
-        transform: scale(2) rotate(-10deg);
-        opacity: 0.8;
-    }
-    100% {
-        transform: rotate(0deg);
-        opacity: 1;
-    }
+  0% {
+    transform: rotate(7deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(2) rotate(-10deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
 }
 
 /* Balance Effect */
 .balance {
-    animation: balance 1.3s ease-in;
+  animation: balance 1.3s ease-in;
 }
 
 @keyframes balance {
-    10% {
-        transform: rotate(10deg);
-    } 
-    20% {
-        transform: rotate(15deg);
-    } 
-    30% {
-        transform: rotate(30deg);
-    } 
-    40% {
-        transform: rotate(15deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    60% {
-        transform: rotate(-5deg);
-    } 
-    70% {
-        transform: rotate(-10deg);
-    }
-    80% {
-        transform: rotate(-20deg);
-    }
-    90% {
-        transform: rotate(-10deg);
-    }
-    100% {
-        transform: rotate(-5deg);
-    }       
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(30deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  70% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(-20deg);
+  }
+  90% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
 }
 
-/* Shuffle Effect PLEASE WORK HERE!*/ 
+/* Shuffle Effect PLEASE WORK HERE!*/
 .shuffle {
-    animation: shuffle 0.5s infinite;
+  animation: shuffle 0.5s infinite;
 }
 
 @keyframes shuffle {
-    0% {
-        transform: translateY(-10px);
-    }
-    20% {
-        transform: translateY(-5px);
-    }
-    40% {
-        transform: translateY(0px);
-    }
-    60% {
-        transform: translateY(5px);
-    }
-    80% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(5px);
-    }  
+  0% {
+    transform: translateY(-10px);
+  }
+  20% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 
 /* 360º Loop Effect */
 .loop {
-    animation: loop 1.2s cubic-bezier(.2,.71,.61,.49);
+  animation: loop 1.2s cubic-bezier(0.2, 0.71, 0.61, 0.49);
 }
 
 @keyframes loop {
-    0%{
-        transform: rotate(60deg);
-    }
-    20% {
-        transform: rotate(120deg);
-    }
-    40% {
-        transform: rotate(180deg);
-    }
-    60%{
-        transform: rotate(240deg);
-    }
-    80%{
-        transform: rotate(300deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(60deg);
+  }
+  20% {
+    transform: rotate(120deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(240deg);
+  }
+  80% {
+    transform: rotate(300deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Vibration effect */
 .vibration {
-    animation: vibrate 0.8s ease-in-out;
+  animation: vibrate 0.8s ease-in-out;
 }
 
 @keyframes vibrate {
-    0% { transform: skewX(25deg); }
-    20% { transform: skewX(20deg); }
-    40% { transform: skewX(15deg); }
-    60% { transform: skewX(-10deg); }
-    80% { transform: skewX(-15deg); }
-    100% { transform: skewX(-20deg); }
+  0% {
+    transform: skewX(25deg);
+  }
+  20% {
+    transform: skewX(20deg);
+  }
+  40% {
+    transform: skewX(15deg);
+  }
+  60% {
+    transform: skewX(-10deg);
+  }
+  80% {
+    transform: skewX(-15deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
 }
 
 /* Star Wars Text Effect -should perform- */
 .star-wars {
-    animation: star-wars 1.85s linear;
+  animation: star-wars 1.85s linear;
 }
 
 @keyframes star-wars {
-      0% {
-        transform: translateY(-40px) rotateX(-37deg);
-    } 25%{
-        transform: translateY(-60px) rotateX(-37deg);
-    } 50%{
-        transform: translateY(-80px) rotateX(-37deg);
-    } 75%{
-        transform: translateY(-100px) rotateX(-37deg);
-    } 100%{
-        transform: translateY(-125px) rotateX(-37deg);
-    }
+  0% {
+    transform: translateY(-40px) rotateX(-37deg);
+  }
+  25% {
+    transform: translateY(-60px) rotateX(-37deg);
+  }
+  50% {
+    transform: translateY(-80px) rotateX(-37deg);
+  }
+  75% {
+    transform: translateY(-100px) rotateX(-37deg);
+  }
+  100% {
+    transform: translateY(-125px) rotateX(-37deg);
+  }
+}
+
+/* Animations for Release 1.0.0  */
+.elevate-up {
+  animation: elevate-up 0.7s linear;
+}
+
+@keyframes elevate-up {
+  0% {
+    color: transparent;
+  }
+  25% {
+    font-size: 12px;
+    opacity: 0.75;
+    transform: translateY(80%);
+    will-change: transform, opacity;
+  }
+  50% {
+    font-size: 12px;
+    opacity: 0.75;
+    transform: translateY(60%);
+    will-change: transform, opacity;
+  }
+  75% {
+    font-size: 12px;
+    opacity: 0.75;
+    transform: translateY(40%);
+    will-change: transform, opacity;
+  }
+  85% {
+    font-size: 12px;
+    opacity: 0.75;
+    transform: translateY(20%);
+    will-change: transform, opacity;
+  }
+  100% {
+    font-size: inherit;
+    opacity: 1;
+    transform: translateY(0%);
+    will-change: transform, opacity;
+  }
 }
