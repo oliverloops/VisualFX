@@ -1,0 +1,25 @@
+{
+  "name": "visualfx",
+  "version": "0.6.5",
+  "description": "A CSS Animation Library That Works Like CGI For Your Website",
+  "main": "visualfx.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverloops/VisualFX.git"
+  },
+  "keywords": [
+    "CSS",
+    "Animations",
+    "Library",
+    "Transitions"
+  ],
+  "author": "Oliver Lopez",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/oliverloops/VisualFX/issues"
+  },
+  "homepage": "https://github.com/oliverloops/VisualFX#readme"
+}
